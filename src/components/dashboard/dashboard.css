@@ -1,0 +1,52 @@
+/* dashboard.css */
+#dashboard {
+  display: flex;
+  width: 1080px;
+  justify-content: space-between;
+}
+#dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  background-color: #fff; /* White background for cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  padding: 20px; /* Inner padding */
+  flex: 1; /* Allow cards to grow */
+}
+
+.repo-item {
+  margin-bottom: 15px; /* Space between repository items */
+  border-bottom: 1px solid #eee; /* Divider line */
+  padding-bottom: 10px; /* Padding for item */
+}
+
+.repo-item h4 {
+  margin: 0; /* Remove default margin */
+  color: #333; /* Darker text color */
+}
+
+.repo-item p {
+  margin: 5px 0 0; /* Margin above and below */
+  color: #666; /* Lighter text color */
+}
+
+#search {
+  margin-bottom: 20px; /* Space below search input */
+}
+
+#search input {
+  width: 100%; /* Full width input */
+  padding: 10px; /* Inner padding */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Rounded input */
+}
+
+
+
+ 
+   

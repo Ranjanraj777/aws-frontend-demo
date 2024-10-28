@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 20px 30px; /* Add padding for more space */
+    border-bottom: 2px solid white;
+    background-color: #333; /* Add a background for better contrast */
+  }
+  
+  nav img {
+    height: 50px;
+    border-radius: 50%; /* Change to 50% for a circular image */
+  }
+  
+  nav div {
+    display: flex;
+    align-items: center; /* Align items vertically in the div */
+  }
+  
+  nav h3 {
+    margin-left: 15px;
+    color: white;
+    transition: color 0.3s; /* Smooth transition on hover */
+  }
+  
+  nav p {
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s; /* Smooth transition on hover */
+  }
+  
+  nav h3:hover,
+  nav p:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Change color on hover for better visibility */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    nav div {
+      margin-top: 10px; /* Add space between items */
+    }
+  }
+  
+
+  
+   
+  
